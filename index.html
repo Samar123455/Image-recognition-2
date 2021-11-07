@@ -1,56 +1,55 @@
 <html>
     <head>
-        <title>
-            FACE RECOGNITION APP
-        </title>
-        
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link href="style.css">
-    
+        <title>Vioce rocognizing animals</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src='main.js'></script>   
     </head>
-
-    <body>
-        <div class="container">
+    <body style="background-color: rgb(120, 236, 219);" >
+        <div width="fit-screen" height="100px" class="div_1">
+            <div class="for_background_colour" style="background-color: rgb(123, 132, 133);">
             <center>
+            <p style="font-size: 30px">Sound Recognizing animals</p>
+            <h4>This app can recognize there following voices</h4>
+        </div>
+    </center>
+    <center>
 
-            <h3 class=" btn btn-info heading">MY FAMILY FACE RECOGNITION</h3>
+            <span class="inline_span
+            "><h2>Dog<sup><img  style="height: 50px; width: 50px;" src="dog for dog sup.png"></sup> <h4  >-Barks</h4></h2>
+        </span>
+        <span class="inline_span
+        "><h2>Cat<sup><img  style="height: 50px; width: 40px;" src="cat for cat sup.png"></sup> <h4  >-Meows</h4></h2>
+    </span>
+    <span class="inline_span
+            "><h2>Lion<sup><img  style="height: 50px; width: 50px;" src="lion for lion sup.png"></sup> <h4  >-Roars</h4></h2>
+        </span>
+        <spa
+        n class="inline_span
+            "><h2>Cow<sup><img  style="height: 50px; width: 60px;" src="cow for holy cow sup.png"></sup> <h4  >-Mooos</h4></h2>
+        </span>
+            <hr style="height: 100
+            px;">
+
+           
+           
+            
+           
             <br>
-            <br>
-            <p style="font-size:22px;"> Model is trained to recognize the faces of my following <b style="color:black">family members</b></p>
-            <br>
-            Samar <b style="color:black">(ME)</b>
-            <hr style="color:black;">
-            Mahi <b style="color:black">(Sister)</b>
-
-            <hr style="color:black;">
-
-            Raj <b style="color:black">(Father)</b>
-            <hr style="color:black;">
-            Monika  <b style="color:black">(Mother)</b>
-            <hr>
-            <br><br>
-
-            <h4>Webcam veiw 👇🏻</h4>
-            <div id="Camera" style="border-style: inherit;"></div>
-            <br><br>
-            <h4>Captured Image 👇🏻</h4>
-            <div id="Image" style="border-style: inherit;"></div>
-            <br><br>
-            <button type="button" id="Snap_Button" onclick="Take_snapshot()" class="btn btn-default">Capture Image</button>
-            <br><br>
-
-            <button type="button" id="Identify_Button" onclick="Check()" class="btn btn-success">Identify Image</button>
-<br><br>
-
-            <p style="font-size:22px;">Object : <span id="result_Object_name"></span></p>
-            <p style="font-size:22px;">Accuracy : <span id="result_Object_accuracy"></span></p>
-        <script href="main.js"></script>
+            <div class="hearing_image_contaier_div">
+                <center>
+                <h3>-I can hear</h3>
+                <img style="height:200px; width: 190px;"     src="https://pluspng.com/img-png/ear-listening-png-hd-ear-png-image-image-2637-ear-png-512.png">
+                <p class="recognized_animal_result"></p>
             </center>
+            </div>
+            </center>
+        
+
+        
         </div>
     </body>
 </html>
